@@ -1,0 +1,264 @@
+body {
+	background-color: #f5f5f5;
+}
+
+h1 {
+	font-size: 86px;
+	line-height: 92px;
+	color: #000;
+	font-weight: bold;
+	max-width: 1200px;
+	text-align: center;
+}
+
+h2 { 
+	font-size: 36px;
+	line-height: 48px;
+	color: #333;
+	max-width: 960px;
+} 
+
+h3 { 
+	font-size: 30px;
+	line-height: 42px;
+	color: #000;
+	font-weight: bold;
+	max-width: 760px;
+}
+
+#post-content img {
+  max-width: 960px;
+  margin: 0 auto;
+  display: block;
+}
+
+#post-content h2,
+#post-content h3 {
+	max-width: 760px;
+  margin: 20px auto 10px;
+  display: block;
+}
+
+.post-deck {
+	font-size: 30px; 
+	line-height: 36px; 
+	color: #000; 
+	font-weight: bold; 
+	max-width: 1200px;
+	text-align: center;
+}
+
+.post-byline { 
+	font-size: 24px; 
+	line-height: 36px; 
+	color: #666; 
+	max-width: 760px;
+	margin: 14px auto; 
+} 
+
+p, ul { 
+	font-size: 18px; 
+	line-height: 30px; 
+	color: #666; 
+	max-width: 760px;
+	margin: 0 auto 10px;
+}
+
+p.lead,
+p.wide {
+	max-width: 960px;
+}
+
+img {
+	max-width: 100%;
+}
+
+img.fullw {
+	width: 100%;
+}
+
+#post-content .twoimages img {
+	max-width: 100%;
+}
+
+.img-caption { 
+	font-size: 18px; 
+	line-height: 30px; 
+	color: #666; 
+} 
+
+button.more-stories {
+	margin: 30px auto;
+	display: block;
+}
+
+#about-author {
+	background: grey;
+}
+
+#about-author .author-img {
+	float: right;
+	margin-top: 55px;
+}
+
+#related-stories {
+	font-size: 24px; 
+	line-height: 30px; 
+	color: #000; 
+	font-weight: bold; 
+	background-color: blue;
+	border-top:1px solid #666; 
+	border-bottom:1px solid #666;
+}
+
+/* Footer Styles */
+
+footer { 
+	font-size: 18px; 
+	line-height: 14px; 
+	color: #FFF;
+	background-color: #717073; 
+}
+
+footer h3 { 
+	font-size: 24px; 
+	line-height: 36px; 
+	color: #FFF; 
+	font-weight: bold; 
+} 
+
+
+/******* Content Editor Utilities ******/
+
+/*(((something that floats its content to the left - this is a call-out box))) */
+.blogfloatleft {
+
+}
+
+
+(((something that floats its content to the right - this is a call-box))) 
+.blogfloatright 
+
+/* Custom Pull Quotes for the editor */
+
+.blogquoteblue {                 
+	font-size: 34px; 
+	line-height: 56px; 
+	color: #FFF; 
+	font-weight: bold; 
+	max-width: 960px; 
+} 
+
+.blogquotedarkblue {                 
+	font-size: 34px; 
+	line-height: 56px; 
+	color: #FFF; 
+	font-weight: bold; 
+	max-width: 960px; 
+} 
+
+.blogquotegreen {                 
+	font-size: 34px; 
+	line-height: 56px; 
+	color: #FFF; 
+	font-weight: bold; 
+	max-width: 960px; 
+} 
+
+.blogquotegray {                 
+	font-size: 34px; 
+	line-height: 56px; 
+	color: #FFF; 
+	font-weight: bold; 
+	max-width: 960px; 
+} 
+
+.blogquotebrown {                 
+	font-size: 34px; 
+	line-height: 56px; 
+	color: #FFF; 
+	font-weight: bold; 
+	max-width: 960px; 
+} 
+
+.blogquoteorange {                 
+	font-size: 34px; 
+	line-height: 56px; 
+	color: #FFF; 
+	font-weight: bold; 
+	max-width: 960px; 
+} 
+
+.blogquotelyellow {                 
+	font-size: 34px; 
+	line-height: 56px; 
+	color: #FFF; 
+	font-weight: bold; 
+	max-width: 960px; 
+}
+
+/* Custom Full width BG's for the editor */
+
+.blogpanelblue {                 
+	font-size: 34px; 
+	line-height: 56px; 
+	color: #FFF; 
+	font-weight: bold; 
+	max-width: 760px;
+	background-color:#007dc3; 
+} 
+
+.blogpaneldarkblue {                 
+	font-size: 34px; 
+	line-height: 56px; 
+	color: #FFF; 
+	font-weight: bold; 
+	max-width: 760px; 
+	background-color:#064083; 
+} 
+
+.blogpanelgreen {                 
+	font-size: 34px; 
+	line-height: 56px; 
+	color: #FFF; 
+	font-weight: bold; 
+	max-width: 760px;
+	background-color:#78a22f; 
+} 
+
+.blogpanelgray {                 
+	font-size: 34px; 
+	line-height: 56px; 
+	color: #FFF; 
+	font-weight: bold; 
+	max-width: 760px;
+	background-color:#717073; 
+} 
+
+.blogpanelbrown {                 
+	font-size: 34px; 
+	line-height: 56px; 
+	color: #FFF; 
+	font-weight: bold; 
+	max-width: 760px;
+	background-color:#b95915; 
+} 
+
+.blogpanelorange {                 
+	font-size: 34px; 
+	line-height: 56px; 
+	color: #FFF; 
+	font-weight: bold; 
+	max-width: 760px; 
+	background-color:#f37321; 
+} 
+
+.blogpanelyellow {                 
+	font-size: 34px; 
+	line-height: 56px; 
+	color: #FFF; 
+	font-weight: bold; 
+	max-width: 760px; 
+	background-color:#c6ac00; 
+} 
+
