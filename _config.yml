@@ -1,0 +1,14 @@
+# Site settings
+title: The Blog of SEH
+email: seh@example.com
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome to the New Blog at SEH!
+baseurl: "http://ryan258.github.io/sehblog" # the subpath of your site, e.g. /blog/
+url: "http://ryan258.github.io/sehblog" # the base hostname & protocol for your site
+twitter_username: 
+github_username:
+facebook_pagename: 
+ganalytics_UA: 
+
+# Build settings
+markdown: kramdown
