@@ -39,6 +39,15 @@ h3 {
 	text-align: center;
 }
 
+.share-post-icons {
+  position: absolute;
+  margin: 20px;
+}
+
+.share-post-icons li {
+	margin: 10px 0;
+}
+
 #post-content img {
   max-width: 960px;
   margin: 0 auto;
@@ -69,12 +78,20 @@ h3 {
 	margin: 14px auto; 
 } 
 
-p, ul { 
+p, ul, figcaption { 
 	font-size: 18px; 
 	line-height: 30px; 
 	color: #666; 
 	max-width: 760px;
 	margin: 0 auto 10px;
+}
+
+blockquote {
+	max-width:960px;
+	margin: 0 auto 10px;
+	font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
 }
 
 p.lead,
@@ -86,7 +103,7 @@ img {
 	max-width: 100%;
 }
 
-#post-content img.fullw {
+#post-img img.fullw {
 	width: 100%;
 	/*max-width: 100%;*/
 }
@@ -159,9 +176,19 @@ button.center {
 	background: #dcddde;
 }
 
+.author-container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 1em 0 3em;
+}
+
+.author-container p {
+	margin: 0 0 1em;
+}
+
 #about-author .author-img {
 	float: right;
-	margin-top: 55px;
+	margin: 55px 5px 55px 25px;
 }
 
 #post-topics {
