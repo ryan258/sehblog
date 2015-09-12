@@ -184,7 +184,13 @@ footer {
 	font-size: 18px; 
 	line-height: 14px; 
 	color: #FFF;
-	background-color: #646f7c; 
+	background-color: #646f7c;
+	padding: 1.5em 0 6em; 
+}
+
+footer p,
+footer a {
+	color: #fff;
 }
 
 footer h3 { 
