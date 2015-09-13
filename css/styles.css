@@ -24,14 +24,13 @@ h2 {
 	color: #333;
 	max-width: 960px;
 	display: block;
-	margin: 0 auto;
+	margin: 60px auto 20px;
 } 
 
 h3 { 
-	font-size: 30px;
-	line-height: 42px;
-	color: #000;
-	font-weight: bold;
+	font-size: 28px;
+	line-height: 36px;
+	color: #666;
 	max-width: 760px;
 }
 
@@ -50,7 +49,7 @@ h3 {
 
 #post-content img {
   max-width: 960px;
-  margin: 0 auto;
+  margin: 60px auto;
   display: block;
 }
 
@@ -64,8 +63,7 @@ h3 {
 .post-deck {
 	font-size: 30px; 
 	line-height: 36px; 
-	color: #000; 
-	font-weight: bold; 
+	color: #666; 
 	max-width: 1200px;
 	text-align: center;
 }
@@ -75,7 +73,7 @@ h3 {
 	line-height: 36px; 
 	color: #666; 
 	max-width: 760px;
-	margin: 14px auto; 
+	margin: 30px auto; 
 } 
 
 p, ul, figcaption { 
@@ -86,6 +84,11 @@ p, ul, figcaption {
 	margin: 20px auto 30px;
 }
 
+p {
+	line-height: 32px;
+	margin: 0 auto 30px;
+}
+
 figcaption {
 	font-size: 16px;
 	padding: .3em 0;
@@ -93,14 +96,28 @@ figcaption {
 }
 
 blockquote {
+	padding: 30px 0;
 	max-width:960px;
-	margin: 0 auto 10px;
+	margin: 60px auto;
 	font-weight: bold;
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 26px;
+    line-height: 42px;
+    border-left: 0;
+    color: #064083;
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
 }
 
-p.lead,
+.lead {
+	margin: 30px auto 30px;
+	font-size: 42px;
+	line-height: 56px;
+}
+
+p.lead {
+	max-width: 760px;
+}
+
 p.wide {
 	max-width: 960px;
 }
@@ -169,7 +186,8 @@ img {
 .img-caption { 
 	font-size: 18px; 
 	line-height: 30px; 
-	color: #666; 
+	color: #999;
+	margin: 20px auto 30px;
 }
 
 button.more-stories,
@@ -308,56 +326,56 @@ footer h3 {
 /* Custom Pull Quotes for the editor */
 
 .blogquoteblue {                 
-	font-size: 34px; 
-	line-height: 56px; 
-	color: #FFF; 
+	font-size: 26px; 
+	line-height: 42px; 
+	color: #064083; 
 	font-weight: bold; 
 	max-width: 960px; 
 } 
 
 .blogquotedarkblue {                 
-	font-size: 34px; 
-	line-height: 56px; 
+	font-size: 26px; 
+	line-height: 42px; 
 	color: #FFF; 
 	font-weight: bold; 
 	max-width: 960px; 
 } 
 
 .blogquotegreen {                 
-	font-size: 34px; 
-	line-height: 56px; 
+	font-size: 26px; 
+	line-height: 42px; 
 	color: #FFF; 
 	font-weight: bold; 
 	max-width: 960px; 
 } 
 
 .blogquotegray {                 
-	font-size: 34px; 
-	line-height: 56px; 
+	font-size: 26px; 
+	line-height: 42px; 
 	color: #FFF; 
 	font-weight: bold; 
 	max-width: 960px; 
 } 
 
 .blogquotebrown {                 
-	font-size: 34px; 
-	line-height: 56px; 
+	font-size: 26px; 
+	line-height: 42px; 
 	color: #FFF; 
 	font-weight: bold; 
 	max-width: 960px; 
 } 
 
 .blogquoteorange {                 
-	font-size: 34px; 
-	line-height: 56px; 
+	font-size: 26px; 
+	line-height: 42px; 
 	color: #FFF; 
 	font-weight: bold; 
 	max-width: 960px; 
 } 
 
 .blogquotelyellow {                 
-	font-size: 34px; 
-	line-height: 56px; 
+	font-size: 26px; 
+	line-height: 42px; 
 	color: #FFF; 
 	font-weight: bold; 
 	max-width: 960px; 
@@ -371,9 +389,9 @@ footer h3 {
 } 
 .bg-full-green p {
 	color: #fff;
-	font-size: 34px; 
-	font-weight: bold; 
-	line-height: 56px; 
+	font-size: 26px;  
+	line-height: 42px;
+	padding: 60px 0; 
 }
 .blogquotegreen {                 
 	font-size: 34px; 
