@@ -15,7 +15,7 @@ h1 {
 	max-width: 1200px;
 	text-align: center;
 	display: block;
-  margin: 20px auto;
+	margin: 32px auto;
 }
 
 h2 {
@@ -83,7 +83,13 @@ p, ul, figcaption {
 	line-height: 30px; 
 	color: #666; 
 	max-width: 760px;
-	margin: 0 auto 10px;
+	margin: 20px auto 30px;
+}
+
+figcaption {
+	font-size: 16px;
+	padding: .3em 0;
+	margin: 0 auto;
 }
 
 blockquote {
@@ -193,16 +199,71 @@ button.center {
 
 #post-topics {
 	background-color: #007dc3;
+overflow:hidden;
+padding: 0 0 3em;;
+}
+
+#post-topics h3 {
+	color: #fff;
+	margin: 0 auto .5em;
+	padding: 1em 0 .5em
+}
+
+#post-topics > * {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#post-topics li {
+	padding: 0 1.5em 0 0;
+}
+
+#post-topics a {
+	background-color: #24408e;
+	color: #fff;
+	padding: 25px 50px;;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 #related-stories {
-	font-size: 24px; 
-	line-height: 30px; 
-	color: #000; 
-	font-weight: bold; 
-	background-color: #0c4da2;
-	border-top:1px solid #666; 
+	font-size: 24px;
+	line-height: 30px;
+	color: #000;
+	font-weight: bold;
+	background-color: #024da1;
+	border-top:1px solid #666;
 	border-bottom:1px solid #666;
+	padding: 1.5em 0;
+}
+
+#related-stories h3 {
+	color: #fff;
+}
+
+#related-stories .col-md-4 {
+	padding: .5em 
+}
+
+#related-stories .teaser-title,
+#related-stories .teaser-deck {
+	color: #fff;
+}
+
+#related-stories .teaser-title {
+	padding: .25em 0
+}
+
+#related-stories .teaser-deck {
+	font-size: .75em;
+}
+
+#related-stories .teaser-tags,
+#related-stories .teaser-tags a {
+	font-size: .75em;
+	color: #fff;
 }
 
 /* Footer Styles */
@@ -216,8 +277,13 @@ footer {
 }
 
 footer p,
-footer a {
+footer a,
+footer a:hover {
 	color: #fff;
+}
+
+footer a:hover {
+	text-decoration: underline;
 }
 
 footer h3 { 
