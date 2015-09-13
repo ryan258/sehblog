@@ -34,6 +34,10 @@ h3 {
 	max-width: 760px;
 }
 
+.row .col-md-4:nth-child(3n+1) {
+	clear: left;
+}
+
 .iframe-container {
 	text-align: center;
 }
@@ -230,6 +234,10 @@ button.center {
 	background-color: #007dc3;
 overflow:hidden;
 padding: 0 0 3em;;
+}
+
+#post-topics .row .col-md-4:nth-child(3n+0) {
+	clear: left;
 }
 
 #post-topics h3 {
