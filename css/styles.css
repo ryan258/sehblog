@@ -51,10 +51,28 @@ h3 {
 	margin: 10px 0;
 }
 
+#post-content .stage img {
+	margin-bottom: 0;
+}
+
 #post-content img {
   max-width: 960px;
   margin: 60px auto;
   display: block;
+}
+
+#post-content .thumbs {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.thumbs ul {
+	max-width: 960px;
+}
+
+
+#post-content .thumbs img {
+	margin: 0 auto;
 }
 
 #post-content h2,
