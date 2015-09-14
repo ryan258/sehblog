@@ -98,12 +98,20 @@ h3 {
 	margin: 30px auto; 
 } 
 
-p, ul, figcaption { 
-	font-size: 18px; 
-	line-height: 30px; 
-	color: #666; 
+p, ul, figcaption {
+	font-size: 18px;
+	line-height: 30px;
+	color: #666;
 	max-width: 760px;
 	margin: 20px auto 30px;
+}
+
+.body > p,
+.body > ul,
+.body > figcaption {
+	max-width: 780px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 p {
@@ -456,16 +464,41 @@ footer h3 {
 
 /* Custom Full width BG's for the editor */
 /*tested*/
-.bg-full-green {                 
-	/*max-width: 760px;*/
-	background-color:#78a22f; 
-} 
-.bg-full-green p {
+.bg p {
 	color: #fff;
 	font-size: 26px;  
 	line-height: 42px;
 	padding: 60px 0; 
 }
+
+.bg-green {                 
+	background-color:#78a22f; 
+}
+
+.bg-blue {                 
+	background-color: #007dc3; 
+}
+.bg-darkblue {                 
+	background-color: #064083; 
+}
+.bg-gray {                 
+	background-color: #717073;
+}
+.bg-brown {                 
+	background-color: #b95915; 
+}
+.bg-orange {                 
+	background-color: #f37321; 
+}
+.bg-yellow {                 
+	background-color: #c6ac00; 
+}
+/*.bg-full-green p {
+	color: #fff;
+	font-size: 26px;  
+	line-height: 42px;
+	padding: 60px 0; 
+}*/
 .blogquotegreen {                 
 	font-size: 34px; 
 	line-height: 56px; 
@@ -473,7 +506,7 @@ footer h3 {
 	font-weight: bold; 
 	max-width: 960px; 
 } 
-/********/
+/*******
 .blogpanelblue {                 
 	font-size: 34px; 
 	line-height: 56px; 
@@ -536,4 +569,4 @@ footer h3 {
 	max-width: 760px; 
 	background-color:#c6ac00; 
 } 
-
+*/
