@@ -206,7 +206,7 @@ h2.slide-title {
 }
 
 .front .col-md-4 .blog-teaser-img {
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 .front .col-md-4 {
@@ -214,12 +214,22 @@ h2.slide-title {
 }
 .front .col-md-4 .teaser-title {
 	font-weight: bold;
-	font-size: 1.15em;
-	line-height: 1.5em;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000;
+  margin-bottom: 10px;
 }
-.front .col-md-4 .teaser-deck {}
+
+.front .col-md-4 .teaser-deck {
+	font-size: 18px;
+	line-height: 24px;
+	color: #666;
+	margin-bottom: 10px;
+}
 .front .col-md-4 .teaser-tags {
-	font-size: .9em
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 10px;
 }
 
 
